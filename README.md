@@ -1,6 +1,6 @@
 # api-testing-random-postcode-generator
 ### Description
-api-testing-random-postcode-generator, this is a unit test. This unit test tests the random postcode generator.
+This is a postcode generator.
 
 ### Languages used
 * Ruby
@@ -18,9 +18,13 @@ api-testing-random-postcode-generator, this is a unit test. This unit test tests
 5. Go to that directory.
 6. Open up the folder in your choice of IDE or text editor.
 
-### How to use generator
 
-1. in your terminal type bundle
+### How to use randomGenerator
+
+1. Type `require_relative 'Generator'` into the desired class
+2. Instanitiate the class by typing: ``` @postcode_array = Generator.new.postcodes```
+3. Call the method on the instaniated class by typing: ```@postcode_array.random_array(random_number)```
+4. 'random_number' parameter is replacable by a number, this number represents the amount of postcodes you wish to generate
 
 ### Challenges (you can include images and code block here)
 1. Random number generator usage with arrays.
