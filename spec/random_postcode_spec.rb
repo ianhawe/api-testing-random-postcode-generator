@@ -7,7 +7,6 @@ describe Generator do
 
       before(:all) do
         @postcode_array = Generator.new.postcodes.random_array(random_number)
-        puts 'rnosdfouihadsiufhapdisufh'
         p @postcode_array.class
       end
 
